@@ -1,0 +1,22 @@
+{
+  "name": "counter",
+  "version": "0.0.0",
+  "description": "A custom web component to increase or decrease number or count",
+  "keywords": [
+    "typescript",
+    "lit",
+    "html"
+  ],
+  "author": "Himanshu Soni <hsoni@tavisca.com>",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --watch",
+    "run": "es-dev-server --root-dir ./ --node-resolve --watch --open"
+  },
+  "dependencies": {
+    "lit-element": "^2.3.1"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.55.0"
+  }
+}
